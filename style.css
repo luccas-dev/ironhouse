@@ -44,7 +44,7 @@ body {
 
 @media (min-width: 768px) {
     body {
-    padding-bottom: 0;
+        padding-bottom: 0;
     }
 }
 
@@ -176,9 +176,9 @@ header.header {
 
 @media (min-width: 640px) {
     .nav-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
     }
 }
 
@@ -276,7 +276,7 @@ header.header {
 
 @media (min-width: 768px) {
     .hero-title {
-    font-size: 3.4rem;
+        font-size: 3.4rem;
     }
 }
 
@@ -291,7 +291,7 @@ header.header {
 
 @media (min-width: 768px) {
     .hero-subtitle {
-    font-size: 1.18rem;
+        font-size: 1.18rem;
     }
 }
 
@@ -306,8 +306,8 @@ header.header {
 
 @media (min-width: 520px) {
     .hero-actions {
-    flex-direction: row;
-    gap: 16px;
+        flex-direction: row;
+        gap: 16px;
     }
 }
 
@@ -411,7 +411,7 @@ header.header {
 
 @media (min-width: 768px) {
     .section-title {
-    font-size: 2.35rem;
+        font-size: 2.35rem;
     }
 }
 
@@ -439,13 +439,13 @@ header.header {
 
 @media (min-width: 640px) {
     .benefits-grid {
-    grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (min-width: 992px) {
     .benefits-grid {
-    grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
@@ -557,7 +557,7 @@ header.header {
 
 @media (min-width: 768px) {
     .venue-banner-overlay {
-    padding: 42px;
+        padding: 42px;
     }
 }
 
@@ -584,7 +584,7 @@ header.header {
 
 @media (min-width: 768px) {
     .venue-title {
-    font-size: 2rem;
+        font-size: 2rem;
     }
 }
 
@@ -611,13 +611,13 @@ header.header {
 
 @media (min-width: 640px) {
     .modalities-grid {
-    grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (min-width: 992px) {
     .modalities-grid {
-    grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
@@ -712,7 +712,7 @@ header.header {
 
 @media (min-width: 640px) {
     .conversion-card-wrap {
-    padding: 44px 38px;
+        padding: 44px 38px;
     }
 }
 
@@ -929,7 +929,7 @@ header.header {
 
 @media (min-width: 768px) {
     .footer-grid {
-    grid-template-columns: 1.4fr 1fr 1fr;
+        grid-template-columns: 1.4fr 1fr 1fr;
     }
 }
 
@@ -1057,8 +1057,8 @@ header.header {
 
 @media (min-width: 768px) {
     .footer-bottom {
-    flex-direction: row;
-    text-align: left;
+        flex-direction: row;
+        text-align: left;
     }
 }
 
@@ -1084,7 +1084,7 @@ header.header {
 
 @media (min-width: 768px) {
     .mobile-sticky-bar {
-    display: none;
+        display: none;
     }
 }
 
