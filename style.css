@@ -929,7 +929,7 @@ header.header {
 
 @media (min-width: 768px) {
     .footer-grid {
-        grid-template-columns: 1.4fr 1fr 1fr;
+        grid-template-columns: 1.4fr 1fr 1fr 1fr;
     }
 }
 
@@ -1166,5 +1166,31 @@ header.header {
         &:hover {
             background: linear-gradient(-135deg, #e7273e 0%, #e7273e 100%);
         }
+    }
+}
+
+.footer-legal-link {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.legal-link {
+    display: flex;
+    /* align-items: center; */
+    gap: 6px;
+    color: #888;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: #4CAF50;
+    }
+
+    & svg {
+        flex-shrink: 0;
     }
 }
