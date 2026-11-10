@@ -1123,3 +1123,48 @@ header.header {
     align-items: center;
     gap: 6px;
 }
+
+/* ==========================================================================
+    AVISO DE COOKIES
+    ========================================================================== */
+
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #1a1a1a;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    font-family: sans-serif;
+    font-size: 14px;
+
+    & a {
+        color: #4CAF50;
+        text-decoration: underline;
+        transition: color .5s ease-in-out;
+
+        &:hover {
+            color: #70d673;
+        }
+    }
+
+    & button {
+        background: linear-gradient(135deg, #FF102B 0%, #D40A20 100%);
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 4px;
+        margin-left: 20px;
+        transition: var(--transition-smooth);
+
+        &:hover {
+            background: linear-gradient(-135deg, #e7273e 0%, #e7273e 100%);
+        }
+    }
+}

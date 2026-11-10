@@ -46,3 +46,19 @@ function handleLeadSubmit(event) {
         }, 1200);
     }, 700);
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    const cookieBanner = document.querySelector("#cookie-banner")
+    const btnAcceptCookie = document.querySelector("#btn-accept-cookies")
+
+    if(!localStorage.getItem("cookiesAceitos")) {
+        cookieBanner.style.display = "flex"
+    } else {
+        cookieBanner.style.display = "none"
+    }
+
+    btnAcceptCookie.addEventListener("click", () => {
+        localStorage.setItem("cookiesAceitos", "true")
+        cookieBanner.style.display = "none"
+    })
+})
