@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  
+  <!-- LETRA I -->
+  <path d="M 20 25 L 20 75" stroke="#ffffff" stroke-width="14" stroke-linecap="round" fill="none" />
+  
+  <!-- Letra H (Vermelha #FF102B) -->
+  <path d="M 45 25 L 45 75 M 45 50 L 75 50 M 75 25 L 75 75" stroke="#FF102B" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+</svg>
