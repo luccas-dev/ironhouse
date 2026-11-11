@@ -193,19 +193,18 @@ header.header {
     letter-spacing: 0.5px;
     transition: var(--transition-smooth);
     box-shadow: 0 4px 14px var(--color-primary-glow);
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    & #vemseriron {
-        font-size: 0.5rem;
-    }
 }
 
 .btn-header-cta:hover {
     background-color: var(--color-primary-dark);
     transform: translateY(-1px);
+}
+
+@media (max-width: 375px) {
+    .btn-header-cta {
+        padding: 6px 15px;
+        text-align: center;
+    }
 }
 
 /* ==========================================================================
@@ -563,12 +562,6 @@ header.header {
     padding: 28px;
 }
 
-@media (min-width: 768px) {
-    .venue-banner-overlay {
-        padding: 42px;
-    }
-}
-
 .venue-tag {
     background: var(--color-primary);
     color: #fff;
@@ -590,17 +583,40 @@ header.header {
     margin-bottom: 8px;
 }
 
-@media (min-width: 768px) {
-    .venue-title {
-        font-size: 2rem;
-    }
-}
-
 .venue-desc {
     color: #D1D5DB;
     font-size: 0.92rem;
     max-width: 640px;
     line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+    .venue-banner-overlay {
+        padding: 42px;
+    }
+
+    .venue-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .venue-banner-overlay {
+        padding: 16px;
+    }
+
+    .venue-tag {
+        margin-bottom: 4px;
+    }
+
+    .venue-title {
+        font-size: 1rem;
+        margin-bottom: 2px;
+    }
+
+    .venue-desc {
+        font-size: 0.75rem;
+    }
 }
 
 /* ==========================================================================
