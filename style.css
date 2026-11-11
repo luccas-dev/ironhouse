@@ -186,13 +186,21 @@ header.header {
     background-color: var(--color-primary);
     color: #fff;
     font-weight: 700;
-    font-size: 0.82rem;
+    font-size: 0.75rem;
     padding: 9px 18px;
     border-radius: 30px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     transition: var(--transition-smooth);
     box-shadow: 0 4px 14px var(--color-primary-glow);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & #vemseriron {
+        font-size: 0.5rem;
+    }
 }
 
 .btn-header-cta:hover {
@@ -1181,16 +1189,25 @@ header.header {
     display: flex;
     /* align-items: center; */
     gap: 6px;
-    color: #888;
+    color: var(--color-text-muted);
     text-decoration: none;
     font-size: 14px;
     transition: color 0.3s ease;
 
     &:hover {
-        color: #4CAF50;
+        color: var(--color-primary-dark);
     }
 
     & svg {
         flex-shrink: 0;
+    }
+}
+
+#developer-link {
+    color: var(--color-text-muted);
+    transition: color .3s ease;
+
+    &:hover {
+        color: var(--color-primary-dark);
     }
 }

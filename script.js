@@ -1,3 +1,5 @@
+const currentYearSpan = document.querySelector('#current-year')
+
 // Máscara dinâmica de telefone/WhatsApp
 const phoneInput = document.getElementById('leadPhone');
 if (phoneInput) {
@@ -38,7 +40,7 @@ function handleLeadSubmit(event) {
         // Monta o link para o WhatsApp oficial com a mensagem pré-preenchida
         const cleanPhone = phone.replace(/\D/g, '');
         const message = encodeURIComponent(`Olá equipe Iron House! Meu nome é ${name}, meu objetivo é "${goal}" e acabei de agendar minha Aula Experimental Gratuita pelo site.`);
-        const whatsappUrl = `https://wa.me/5511999999999?text=${message}`;
+        const whatsappUrl = `https://wa.me/5585997926519?text=${message}`;
 
         // Redireciona o lead diretamente para fechar no WhatsApp após 1.2 segundos
         setTimeout(() => {
@@ -62,3 +64,10 @@ document.addEventListener("DOMContentLoaded", () => {
         cookieBanner.style.display = "none"
     })
 })
+
+// Atualiza o ano atual no rodapé
+if(currentYearSpan) {
+    const currentYear = new Date().getFullYear()
+
+    currentYearSpan.textContent = currentYear
+}
